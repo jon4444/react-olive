@@ -79,10 +79,9 @@
   right: -8px;
 }
 
-
-/* .yellow-dot {
-  color: yellow;
-  font-size: large;
-  font-weight: bolder;
-  width: 150px;
-} */
+@media (max-width:750px) {
+  
+  .navbar-menu {
+    display: none;
+  }
+}
