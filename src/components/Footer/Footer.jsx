@@ -1,13 +1,18 @@
 import React from 'react'
 import './Footer.css'
 import { assets } from '../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-            <img src={assets.logo} alt="LOGO" />
+
+            <div className="navbar-title">
+                <Link to='/'>Olive Catering<span className='dot'>.</span></Link>
+            </div>
+            {/* <img src={assets.logo} alt="LOGO" /> */}
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </p>
