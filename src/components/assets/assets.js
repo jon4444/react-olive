@@ -50,6 +50,7 @@ import play_store from './play_store.png'
 import linkedin_icon from "./linkedin_icon.png";
 import facebook_icon from "./facebook_icon.png";
 import twitter_icon from "./twitter_icon.png";
+import instagram_icon from "./instagram.png";
 import cross_icon from './cross_icon.png'
 // import selector_icon from './selector_icon.png'
 import rating_starts from "./rating_starts.png";
@@ -66,6 +67,7 @@ export const assets = {
   add_icon_white,
   remove_icon_red,
   linkedin_icon,
+  instagram_icon,
   facebook_icon,
   twitter_icon,
   play_store,
@@ -147,7 +149,7 @@ export const food_list = [
   },
   {
     _id: "5",
-    name: "Lasagna Rolls",
+    name: "Samusa Rolls",
     image: food_5,
     price: 14,
     description:
@@ -156,7 +158,7 @@ export const food_list = [
   },
   {
     _id: "6",
-    name: "Peri Peri Rolls",
+    name: "Puff Puff",
     image: food_6,
     price: 12,
     description:

@@ -7,9 +7,8 @@ const Header = () => {
       <div className="header-contents">
         <h2>Order your favourite food here.</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
+          Savor authentic African cuisine, crafted with love and tradition.
+          Order now and bring the vibrant flavors of Africa to your table.
         </p>
         <button>View Menu</button>
       </div>

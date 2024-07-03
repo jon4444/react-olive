@@ -20,6 +20,7 @@ const Footer = () => {
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
                 <img src={assets.linkedin_icon} alt="" />
+                <img src={assets.instagram_icon} alt="" />
             </div>
             </div>
             <div className="footer-content-center">
@@ -32,10 +33,10 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="footer-content-right">
-            <h2>GET IN TOUCH</h2>
+            <h2>Contact Us</h2>
             <ul>
-                <li>+44-799-995-5533</li>
-                <li>contact@tomato.com</li>
+                <li>+1(682)234-5631</li>
+                <li>olivecatering16@gmail.com</li>
             </ul>
             </div>
         </div>
