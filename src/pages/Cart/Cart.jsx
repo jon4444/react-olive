@@ -23,7 +23,7 @@ const Cart = () => {
         <hr />
         {food_list.map((item, index) => {
           if (cartItems[item._id] > 0) {
-            return (
+            return ( 
               <div>
                 <div className="cart-items-title cart-items-item">
                   <img src={item.image} alt="" />
