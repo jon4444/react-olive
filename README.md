@@ -92,4 +92,5 @@ Target Audience:
 - [Dejwid Fullstack Food Ordering App](https://github.com/dejwid/food-ordering)
 - [🎥youtube - Dejwid Fullstack Food Ordering App](https://youtu.be/nGoSP3MBV2E?t=6276)
 - [How To Create Complete Food Delivery App Using React JS Step By Step Tutorial 2024
+- [How To Create Full Stack Food Delivery Website In React JS, MongoDB, Express, Node JS & Stripe](https://youtu.be/DBMPXJJfQEA?list=PLUjydcFFSpJBD_enl8yOfNS7axivlI4Ql&t=26253)
 ](https://youtu.be/9jRTo7ILxQc?list=PLUjydcFFSpJBD_enl8yOfNS7axivlI4Ql)
