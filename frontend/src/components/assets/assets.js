@@ -4,17 +4,17 @@ import menu_1 from "./menu_1.png";
 import menu_2 from "./menu_2.png";
 import menu_3 from "./menu_3.png";
 import menu_4 from "./menu_4.png";
-import menu_5 from "./menu_5.png";
-import menu_6 from "./menu_6.png";
+import menu_5 from "./menu_5.png"; // cake to drinks
+import menu_6 from "./menu_6.png"; // 
 import menu_7 from "./menu_7.png";
 import menu_8 from "./menu_8.png";
 
 import food_1 from "./food_1.png";
-import food_2 from "./food_2.png";
-import food_3 from "./food_3.png";
-import food_4 from "./food_4.png";
-import food_5 from "./food_5.png";
-import food_6 from "./food_6.png";
+import food_2 from "./food_2.png"; // change
+import food_3 from "./food_3.png"; // change
+import food_4 from "./food_4.png"; // change
+import food_5 from "./food_5.png"; // samosa
+import food_6 from "./food_6.png"; // puff puff
 import food_7 from "./food_7.png";
 import food_8 from "./food_8.png";
 import food_9 from "./food_9.png";
@@ -27,8 +27,8 @@ import food_15 from "./food_15.png";
 import food_16 from "./food_16.png";
 import food_17 from "./food_17.png";
 import food_18 from "./food_18.png";
-import food_19 from "./food_19.png";
-import food_20 from "./food_20.png";
+// import food_19 from "./food_19.png";
+// import food_20 from "./food_20.png";
 import food_21 from "./food_21.png";
 import food_22 from "./food_22.png";
 import food_23 from "./food_23.png";
@@ -45,18 +45,18 @@ import food_32 from "./food_32.png";
 import add_icon_white from "./add_icon_white.png";
 import add_icon_green from "./add_icon_green.png";
 import remove_icon_red from "./remove_icon_red.png";
-import app_store from './app_store.png'
-import play_store from './play_store.png'
+import app_store from "./app_store.png";
+import play_store from "./play_store.png";
 import linkedin_icon from "./linkedin_icon.png";
 import facebook_icon from "./facebook_icon.png";
 import twitter_icon from "./twitter_icon.png";
 import instagram_icon from "./instagram.png";
-import cross_icon from './cross_icon.png'
+import cross_icon from "./cross_icon.png";
 // import selector_icon from './selector_icon.png'
 import rating_starts from "./rating_starts.png";
-// import profile_icon from './profile_icon.png'
+import profile_icon from './profile_icon.png'
 // import bag_icon from './bag_icon.png'
-// import logout_icon from './logout_icon.png'
+import logout_icon from './logout_icon.png'
 // import parcel_icon from './parcel_icon.png'
 
 export const assets = {
@@ -73,6 +73,8 @@ export const assets = {
   play_store,
   app_store,
   cross_icon,
+  profile_icon,
+  logout_icon
 };
 
 export const menu_list = [
@@ -93,7 +95,7 @@ export const menu_list = [
     menu_image: menu_4,
   },
   {
-    menu_name: "Cake",
+    menu_name: "Drinks",
     menu_image: menu_5,
   },
   {
@@ -257,7 +259,7 @@ export const food_list = [
   },
   {
     _id: "17",
-    name: "Cup Cake",
+    name: "Mocktail",
     image: food_17,
     price: 14,
     description:
@@ -266,7 +268,7 @@ export const food_list = [
   },
   {
     _id: "18",
-    name: "Vegan Cake",
+    name: "Mocktail 2",
     image: food_18,
     price: 12,
     description:
@@ -274,22 +276,7 @@ export const food_list = [
     category: "Cake",
   },
   {
-    _id: "19",
-    name: "Butterscotch Cake",
-    image: food_19,
-    price: 20,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Cake",
-  },
-  {
-    _id: "20",
-    name: "Sliced Cake",
-    image: food_20,
-    price: 15,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Cake",
+    // food 19 & 20
   },
   {
     _id: "21",
@@ -398,5 +385,5 @@ export const food_list = [
     description:
       "Food provides essential nutrients for overall health and well-being",
     category: "Noodles",
-  },
+  }
 ];

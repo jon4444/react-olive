@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Cart.css";
 import { StoreContext } from "../../context/StoreContext";
-import { getByTitle } from "@testing-library/react";
+// import { getByTitle } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
@@ -38,6 +38,8 @@ const Cart = () => {
                 <hr />
               </div>
             );
+          } else {
+            return null;
           }
         })}
       </div>

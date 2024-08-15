@@ -1,10 +1,23 @@
 import React, { createContext, useEffect, useState } from "react";
-import { food_list } from "../components/assets/assets";
+// import { food_list } from "../components/assets/assets";
 
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
+
+  // check for data
+  useEffect(() => {
+    // Fetch food list data from your backend
+    fetch("/api/food") // Adjust the endpoint to match your backend
+      .then((response) => response.json())
+      .then((data) => {
+        setFoodList(data);
+      })
+      .catch((error) => {
+        console.error("Error fetching food data:", error);
+      });
+  }, []);
 
   const addToCart = (itemId) => {
     if (!cartItems[itemId]) {
@@ -23,7 +36,10 @@ const StoreContextProvider = (props) => {
     for (const item in cartItems) {
       if (cartItems[item] > 0) {
         let itemInfo = food_list.find((product) => product._id === item);
-        totalAmount += itemInfo.price * cartItems[item];
+        if (itemInfo) {
+          totalAmount += itemInfo.price * cartItems[item];
+        }
+        
       }
     }
     return totalAmount;
